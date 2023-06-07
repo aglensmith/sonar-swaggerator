@@ -1,4 +1,23 @@
 const fs = require('fs');
+const https = require('https');
+
+function getHttps(url, callback) {
+    https.get(url, res => {
+        let data = [];
+        const headerDate = res.headers && res.headers.date ? res.headers.date : 'no response date';
+
+        res.on('data', chunk => {
+          data.push(chunk);
+        });
+      
+        res.on('end', () => {
+          callback(Buffer.concat(data).toString());
+
+        });
+      }).on('error', err => {
+        console.log('Error: ', err.message);
+      });
+}
 
 function createSwaggerTemplate () {
     return  {
@@ -15,6 +34,9 @@ function createSwaggerTemplate () {
         paths: {}
     }
 }
+
+// https://next.sonarqube.com/sonarqube/api/webservices/list
+
 
 function getWebServiceJson (location) {
     return fs.readFileSync(location);
@@ -91,4 +113,5 @@ module.exports = {
     parseWebServiceJson,
     convertToSwagger,
     createSwaggerTemplate,
+    getHttps
  }
