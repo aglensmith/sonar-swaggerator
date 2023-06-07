@@ -30,4 +30,9 @@ node index.js >> webapi.oas.json
 
 It is possible to generate API documentation from an OAS file using a tool like [Redoc](https://redocly.github.io/). Any easy way to do this is to pass a raw file URL to the redoc demo page, like so: https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/aglensmith/sonar-swaggerator/main/webapi.oas.json#tag/batch
 
+Other examples:
+* [Stoplight Elements](https://elements-demo.stoplight.io/?spec=https://raw.githubusercontent.com/aglensmith/sonar-swaggerator/main/webapi.oas.json#tag/batch)
+* [Mrin Doc](https://mrin9.github.io/OpenAPI-Viewer/#/load/https%3A%2F%2Fapi.apis.guru%2Fv2%2Fspecs%2Fbitbucket.org%2F2.0%2Fswagger.json)
+* [OpenAPI Explorer](https://rhosys.github.io/openapi-explorer/?#?route=get-/v1/users/-userId-/resources/-resourceUri-/permissions/-permission-)
+
 See [openapi.tools](https://openapi.tools/#documentation) for a list of other OpenAPI documentation generators and other tools.
