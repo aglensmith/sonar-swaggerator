@@ -3,6 +3,7 @@ const https = require('https');
 
 function sonarCloudTest () {
     var notUsedVar = "";
+    var notUsedVar2 = "";
 }
 
 function getHttps(url, callback) {
