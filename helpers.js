@@ -21,17 +21,29 @@ function getHttps(url, callback) {
 
 function createSwaggerTemplate () {
     return  {
-        openapi: "3.0.0",
-        info: {
-            title: "Web API",
-            version: "1.0"
+        "openapi": "3.0.0",
+        "info": {
+            "title": "Web API",
+            "version": "1.0"
         },
-        servers: [
+        "servers": [
             {
-                url: "http:localhost.com/api"
+                url: "http:localhost.com:9000/api"
             }
         ],
-        paths: {}
+        "security": [
+            "bearerAuth"
+        ],
+        "paths": {},
+        "components": {
+            "securitySchemes": {
+                "BearerAuth": {
+                    "type": "http",
+                    "scheme": "bearer",
+
+                }
+            }
+        }
     }
 }
 
@@ -54,9 +66,10 @@ function convertToSwagger (template, services) {
     
         actions.forEach(action => {
             let full_path = "/" + path + "/" + action.key
-            let summary = action.description;
+            let summary = full_path
+            let description = action.description;
             let operationId = path.split("/")[1] + "-" + action.key;
-            let tags = [full_path.split("/")[1]];
+            let tags = [full_path.split("/")[2]];
             let parameters = [];
             let responses = {
                 200: {
@@ -89,6 +102,7 @@ function convertToSwagger (template, services) {
     
             let operation = {
                 summary: summary,
+                description: description,
                 operationId: operationId,
                 tags: tags,
                 parameters: parameters,
