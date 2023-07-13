@@ -1,6 +1,11 @@
 const fs = require('fs');
 const https = require('https');
 
+function sonarCloudTest () {
+    var notUsedVar = "";
+    var notUsedVar2 = "";
+}
+
 function getHttps(url, callback) {
     https.get(url, res => {
         let data = [];
