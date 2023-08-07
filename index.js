@@ -9,5 +9,3 @@ helpers.getHttps('https://next.sonarqube.com/sonarqube/api/webservices/list', fu
     
     console.log(JSON.stringify(swagger));
 });
-
-

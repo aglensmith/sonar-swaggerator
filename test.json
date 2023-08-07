@@ -1,0 +1,6063 @@
+[
+	{
+		"code": "info-contact",
+		"path": [
+			"info"
+		],
+		"message": "Info object must have \"contact\" object.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 26
+			},
+			"end": {
+				"line": 0,
+				"character": 60
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "info-description",
+		"path": [
+			"info"
+		],
+		"message": "Info \"description\" must be present and non-empty string.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 26
+			},
+			"end": {
+				"line": 0,
+				"character": 60
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "oas3-schema",
+		"path": [
+			"security",
+			"0"
+		],
+		"message": "\"0\" property type must be object.",
+		"severity": 0,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 124
+			},
+			"end": {
+				"line": 0,
+				"character": 136
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_integrations/import_gitlab_project",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 474
+			},
+			"end": {
+				"line": 0,
+				"character": 492
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_integrations/list_azure_projects",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 1110
+			},
+			"end": {
+				"line": 0,
+				"character": 1128
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_integrations/list_bitbucketserver_projects",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 1655
+			},
+			"end": {
+				"line": 0,
+				"character": 1673
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_integrations/search_azure_repos",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 2162
+			},
+			"end": {
+				"line": 0,
+				"character": 2180
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_integrations/search_bitbucketcloud_repos",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 2976
+			},
+			"end": {
+				"line": 0,
+				"character": 2994
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_integrations/search_bitbucketserver_repos",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 3980
+			},
+			"end": {
+				"line": 0,
+				"character": 3998
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_integrations/search_gitlab_repos",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 4764
+			},
+			"end": {
+				"line": 0,
+				"character": 4782
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_integrations/set_pat",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 5788
+			},
+			"end": {
+				"line": 0,
+				"character": 5806
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/count_binding",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 6550
+			},
+			"end": {
+				"line": 0,
+				"character": 6564
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/create_azure",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 7028
+			},
+			"end": {
+				"line": 0,
+				"character": 7042
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/create_bitbucket",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 7812
+			},
+			"end": {
+				"line": 0,
+				"character": 7826
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/create_bitbucketcloud",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 8626
+			},
+			"end": {
+				"line": 0,
+				"character": 8640
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/create_github",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 9538
+			},
+			"end": {
+				"line": 0,
+				"character": 9552
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/create_gitlab",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 10821
+			},
+			"end": {
+				"line": 0,
+				"character": 10835
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 11563
+			},
+			"end": {
+				"line": 0,
+				"character": 11577
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/delete_binding",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 12065
+			},
+			"end": {
+				"line": 0,
+				"character": 12079
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/get_binding",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 12540
+			},
+			"end": {
+				"line": 0,
+				"character": 12554
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/list",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 13126
+			},
+			"end": {
+				"line": 0,
+				"character": 13140
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/list_definitions",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 13620
+			},
+			"end": {
+				"line": 0,
+				"character": 13634
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/set_azure_binding",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 14105
+			},
+			"end": {
+				"line": 0,
+				"character": 14119
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/set_bitbucket_binding",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 15283
+			},
+			"end": {
+				"line": 0,
+				"character": 15297
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/set_bitbucketcloud_binding",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 16487
+			},
+			"end": {
+				"line": 0,
+				"character": 16501
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/set_github_binding",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 17515
+			},
+			"end": {
+				"line": 0,
+				"character": 17529
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/set_gitlab_binding",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 18690
+			},
+			"end": {
+				"line": 0,
+				"character": 18704
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/update_azure",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 19558
+			},
+			"end": {
+				"line": 0,
+				"character": 19572
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/update_bitbucket",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 20520
+			},
+			"end": {
+				"line": 0,
+				"character": 20534
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/update_bitbucketcloud",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 21496
+			},
+			"end": {
+				"line": 0,
+				"character": 21510
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/update_github",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 22614
+			},
+			"end": {
+				"line": 0,
+				"character": 22628
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/update_gitlab",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 24077
+			},
+			"end": {
+				"line": 0,
+				"character": 24091
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/alm_settings/validate",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 25045
+			},
+			"end": {
+				"line": 0,
+				"character": 25059
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/analysis_cache/get",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 25608
+			},
+			"end": {
+				"line": 0,
+				"character": 25624
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/applications/add_project",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 26243
+			},
+			"end": {
+				"line": 0,
+				"character": 26257
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/applications/create",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 26854
+			},
+			"end": {
+				"line": 0,
+				"character": 26868
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/applications/create_branch",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 27978
+			},
+			"end": {
+				"line": 0,
+				"character": 27992
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/applications/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 29009
+			},
+			"end": {
+				"line": 0,
+				"character": 29023
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/applications/delete_branch",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 29498
+			},
+			"end": {
+				"line": 0,
+				"character": 29512
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/applications/remove_project",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 30108
+			},
+			"end": {
+				"line": 0,
+				"character": 30122
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/applications/set_tags",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 30733
+			},
+			"end": {
+				"line": 0,
+				"character": 30747
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/applications/show",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 31367
+			},
+			"end": {
+				"line": 0,
+				"character": 31381
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/applications/update",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 31940
+			},
+			"end": {
+				"line": 0,
+				"character": 31954
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/applications/update_branch",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 32762
+			},
+			"end": {
+				"line": 0,
+				"character": 32776
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/audit_logs/download",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 33971
+			},
+			"end": {
+				"line": 0,
+				"character": 33983
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/authentication/login",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 34665
+			},
+			"end": {
+				"line": 0,
+				"character": 34681
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/authentication/logout",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 35185
+			},
+			"end": {
+				"line": 0,
+				"character": 35201
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/authentication/validate",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 35457
+			},
+			"end": {
+				"line": 0,
+				"character": 35473
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/ce/activity",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 35801
+			},
+			"end": {
+				"line": 0,
+				"character": 35805
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/ce/activity_status",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 37717
+			},
+			"end": {
+				"line": 0,
+				"character": 37721
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/ce/component",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 38266
+			},
+			"end": {
+				"line": 0,
+				"character": 38270
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/ce/task",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 38877
+			},
+			"end": {
+				"line": 0,
+				"character": 38881
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/components/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 39429
+			},
+			"end": {
+				"line": 0,
+				"character": 39441
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/components/show",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 40772
+			},
+			"end": {
+				"line": 0,
+				"character": 40784
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/components/tree",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 41663
+			},
+			"end": {
+				"line": 0,
+				"character": 41675
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/duplications/show",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 44223
+			},
+			"end": {
+				"line": 0,
+				"character": 44237
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/editions/set_license",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 44682
+			},
+			"end": {
+				"line": 0,
+				"character": 44692
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/favorites/add",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 45222
+			},
+			"end": {
+				"line": 0,
+				"character": 45233
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/favorites/remove",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 45766
+			},
+			"end": {
+				"line": 0,
+				"character": 45777
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/favorites/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 46191
+			},
+			"end": {
+				"line": 0,
+				"character": 46202
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/hotspots/change_status",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 46827
+			},
+			"end": {
+				"line": 0,
+				"character": 46837
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/hotspots/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 47923
+			},
+			"end": {
+				"line": 0,
+				"character": 47933
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/hotspots/show",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 51924
+			},
+			"end": {
+				"line": 0,
+				"character": 51934
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/add_comment",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 52415
+			},
+			"end": {
+				"line": 0,
+				"character": 52423
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/assign",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 52951
+			},
+			"end": {
+				"line": 0,
+				"character": 52959
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/authors",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 53659
+			},
+			"end": {
+				"line": 0,
+				"character": 53667
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/bulk_change",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 54428
+			},
+			"end": {
+				"line": 0,
+				"character": 54436
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/changelog",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 56161
+			},
+			"end": {
+				"line": 0,
+				"character": 56169
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/delete_comment",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 56642
+			},
+			"end": {
+				"line": 0,
+				"character": 56650
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/do_transition",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 57290
+			},
+			"end": {
+				"line": 0,
+				"character": 57298
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/edit_comment",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 57887
+			},
+			"end": {
+				"line": 0,
+				"character": 57895
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/reindex",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 58421
+			},
+			"end": {
+				"line": 0,
+				"character": 58429
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 59007
+			},
+			"end": {
+				"line": 0,
+				"character": 59015
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/set_severity",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 66961
+			},
+			"end": {
+				"line": 0,
+				"character": 66969
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/set_tags",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 67508
+			},
+			"end": {
+				"line": 0,
+				"character": 67516
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/set_type",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 68310
+			},
+			"end": {
+				"line": 0,
+				"character": 68318
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/issues/tags",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 68785
+			},
+			"end": {
+				"line": 0,
+				"character": 68793
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/languages/list",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 69799
+			},
+			"end": {
+				"line": 0,
+				"character": 69810
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/measures/component",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 70469
+			},
+			"end": {
+				"line": 0,
+				"character": 70479
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/measures/component_tree",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 71837
+			},
+			"end": {
+				"line": 0,
+				"character": 71847
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/measures/search_history",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 75831
+			},
+			"end": {
+				"line": 0,
+				"character": 75841
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/metrics/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 77427
+			},
+			"end": {
+				"line": 0,
+				"character": 77436
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/metrics/types",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 77967
+			},
+			"end": {
+				"line": 0,
+				"character": 77976
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/monitoring/metrics",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 78465
+			},
+			"end": {
+				"line": 0,
+				"character": 78477
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/new_code_periods/list",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 78979
+			},
+			"end": {
+				"line": 0,
+				"character": 78997
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/new_code_periods/set",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 80190
+			},
+			"end": {
+				"line": 0,
+				"character": 80208
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/new_code_periods/show",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 82085
+			},
+			"end": {
+				"line": 0,
+				"character": 82103
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/new_code_periods/unset",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 83068
+			},
+			"end": {
+				"line": 0,
+				"character": 83086
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/notifications/add",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 83925
+			},
+			"end": {
+				"line": 0,
+				"character": 83940
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/notifications/list",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 85210
+			},
+			"end": {
+				"line": 0,
+				"character": 85225
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/notifications/remove",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 85782
+			},
+			"end": {
+				"line": 0,
+				"character": 85797
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/add_group",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 87212
+			},
+			"end": {
+				"line": 0,
+				"character": 87225
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/add_group_to_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 88459
+			},
+			"end": {
+				"line": 0,
+				"character": 88472
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/add_project_creator_to_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 89531
+			},
+			"end": {
+				"line": 0,
+				"character": 89544
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/add_user",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 90570
+			},
+			"end": {
+				"line": 0,
+				"character": 90583
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/add_user_to_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 91737
+			},
+			"end": {
+				"line": 0,
+				"character": 91750
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/apply_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 92815
+			},
+			"end": {
+				"line": 0,
+				"character": 92828
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/bulk_apply_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 93752
+			},
+			"end": {
+				"line": 0,
+				"character": 93765
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/create_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 95512
+			},
+			"end": {
+				"line": 0,
+				"character": 95525
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/delete_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 96286
+			},
+			"end": {
+				"line": 0,
+				"character": 96299
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/remove_group",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 97139
+			},
+			"end": {
+				"line": 0,
+				"character": 97152
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/remove_group_from_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 98409
+			},
+			"end": {
+				"line": 0,
+				"character": 98422
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/remove_project_creator_from_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 99501
+			},
+			"end": {
+				"line": 0,
+				"character": 99514
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/remove_user",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 100555
+			},
+			"end": {
+				"line": 0,
+				"character": 100568
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/remove_user_from_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 101746
+			},
+			"end": {
+				"line": 0,
+				"character": 101759
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/search_templates",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 102718
+			},
+			"end": {
+				"line": 0,
+				"character": 102731
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/set_default_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 103275
+			},
+			"end": {
+				"line": 0,
+				"character": 103288
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/permissions/update_template",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 104169
+			},
+			"end": {
+				"line": 0,
+				"character": 104182
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/plugins/available",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 105636
+			},
+			"end": {
+				"line": 0,
+				"character": 105645
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/plugins/cancel_all",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 106016
+			},
+			"end": {
+				"line": 0,
+				"character": 106025
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/plugins/install",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 106517
+			},
+			"end": {
+				"line": 0,
+				"character": 106526
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/plugins/installed",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 107013
+			},
+			"end": {
+				"line": 0,
+				"character": 107022
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/plugins/pending",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 107772
+			},
+			"end": {
+				"line": 0,
+				"character": 107781
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/plugins/uninstall",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 108119
+			},
+			"end": {
+				"line": 0,
+				"character": 108128
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/plugins/update",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 108717
+			},
+			"end": {
+				"line": 0,
+				"character": 108726
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/plugins/updates",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 109607
+			},
+			"end": {
+				"line": 0,
+				"character": 109616
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_analyses/create_event",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 110109
+			},
+			"end": {
+				"line": 0,
+				"character": 110127
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_analyses/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 110904
+			},
+			"end": {
+				"line": 0,
+				"character": 110922
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_analyses/delete_event",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 111538
+			},
+			"end": {
+				"line": 0,
+				"character": 111556
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_analyses/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 112112
+			},
+			"end": {
+				"line": 0,
+				"character": 112130
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_analyses/update_event",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 113696
+			},
+			"end": {
+				"line": 0,
+				"character": 113714
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_badges/measure",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 114288
+			},
+			"end": {
+				"line": 0,
+				"character": 114304
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_badges/quality_gate",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 115171
+			},
+			"end": {
+				"line": 0,
+				"character": 115187
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_badges/renew_token",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 116146
+			},
+			"end": {
+				"line": 0,
+				"character": 116162
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_badges/token",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 116824
+			},
+			"end": {
+				"line": 0,
+				"character": 116840
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_branches/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 117342
+			},
+			"end": {
+				"line": 0,
+				"character": 117360
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_branches/list",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 117971
+			},
+			"end": {
+				"line": 0,
+				"character": 117989
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_branches/rename",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 118478
+			},
+			"end": {
+				"line": 0,
+				"character": 118496
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_branches/set_automatic_deletion_protection",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 119250
+			},
+			"end": {
+				"line": 0,
+				"character": 119268
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_dump/export",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 120154
+			},
+			"end": {
+				"line": 0,
+				"character": 120168
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_dump/import",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 120610
+			},
+			"end": {
+				"line": 0,
+				"character": 120624
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_links/create",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 121066
+			},
+			"end": {
+				"line": 0,
+				"character": 121081
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_links/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 121918
+			},
+			"end": {
+				"line": 0,
+				"character": 121933
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_links/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 122529
+			},
+			"end": {
+				"line": 0,
+				"character": 122544
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_pull_requests/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 123128
+			},
+			"end": {
+				"line": 0,
+				"character": 123151
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_pull_requests/list",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 123853
+			},
+			"end": {
+				"line": 0,
+				"character": 123876
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_tags/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 124234
+			},
+			"end": {
+				"line": 0,
+				"character": 124248
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/project_tags/set",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 125022
+			},
+			"end": {
+				"line": 0,
+				"character": 125036
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/projects/bulk_delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 125752
+			},
+			"end": {
+				"line": 0,
+				"character": 125762
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/projects/create",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 127076
+			},
+			"end": {
+				"line": 0,
+				"character": 127086
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/projects/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 128203
+			},
+			"end": {
+				"line": 0,
+				"character": 128213
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/projects/export_findings",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 129062
+			},
+			"end": {
+				"line": 0,
+				"character": 129072
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/projects/license_usage",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 130084
+			},
+			"end": {
+				"line": 0,
+				"character": 130094
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/projects/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 130401
+			},
+			"end": {
+				"line": 0,
+				"character": 130411
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/projects/update_key",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 132166
+			},
+			"end": {
+				"line": 0,
+				"character": 132176
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/projects/update_visibility",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 132780
+			},
+			"end": {
+				"line": 0,
+				"character": 132790
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/add_group",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 133464
+			},
+			"end": {
+				"line": 0,
+				"character": 133478
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/add_user",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 134172
+			},
+			"end": {
+				"line": 0,
+				"character": 134186
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/copy",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 134760
+			},
+			"end": {
+				"line": 0,
+				"character": 134774
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/create",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 135373
+			},
+			"end": {
+				"line": 0,
+				"character": 135387
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/create_condition",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 135921
+			},
+			"end": {
+				"line": 0,
+				"character": 135935
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/delete_condition",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 137163
+			},
+			"end": {
+				"line": 0,
+				"character": 137177
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/deselect",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 137718
+			},
+			"end": {
+				"line": 0,
+				"character": 137732
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/destroy",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 138199
+			},
+			"end": {
+				"line": 0,
+				"character": 138213
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/get_by_project",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 138818
+			},
+			"end": {
+				"line": 0,
+				"character": 138832
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/list",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 139200
+			},
+			"end": {
+				"line": 0,
+				"character": 139214
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/project_status",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 140090
+			},
+			"end": {
+				"line": 0,
+				"character": 140104
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/remove_group",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 141221
+			},
+			"end": {
+				"line": 0,
+				"character": 141235
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/remove_user",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 141957
+			},
+			"end": {
+				"line": 0,
+				"character": 141971
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/rename",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 142555
+			},
+			"end": {
+				"line": 0,
+				"character": 142569
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 143203
+			},
+			"end": {
+				"line": 0,
+				"character": 143217
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/search_groups",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 144526
+			},
+			"end": {
+				"line": 0,
+				"character": 144540
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/search_users",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 145822
+			},
+			"end": {
+				"line": 0,
+				"character": 145836
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/select",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 147091
+			},
+			"end": {
+				"line": 0,
+				"character": 147105
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/set_as_default",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 147754
+			},
+			"end": {
+				"line": 0,
+				"character": 147768
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/show",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 148174
+			},
+			"end": {
+				"line": 0,
+				"character": 148188
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualitygates/update_condition",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 148708
+			},
+			"end": {
+				"line": 0,
+				"character": 148722
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/activate_rule",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 150025
+			},
+			"end": {
+				"line": 0,
+				"character": 150042
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/activate_rules",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 151390
+			},
+			"end": {
+				"line": 0,
+				"character": 151407
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/add_project",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 156194
+			},
+			"end": {
+				"line": 0,
+				"character": 156211
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/backup",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 156954
+			},
+			"end": {
+				"line": 0,
+				"character": 156971
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/change_parent",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 157686
+			},
+			"end": {
+				"line": 0,
+				"character": 157703
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/changelog",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 158728
+			},
+			"end": {
+				"line": 0,
+				"character": 158745
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/copy",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 160088
+			},
+			"end": {
+				"line": 0,
+				"character": 160105
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/create",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 160716
+			},
+			"end": {
+				"line": 0,
+				"character": 160733
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/deactivate_rule",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 161448
+			},
+			"end": {
+				"line": 0,
+				"character": 161465
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/deactivate_rules",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 162228
+			},
+			"end": {
+				"line": 0,
+				"character": 162245
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 166909
+			},
+			"end": {
+				"line": 0,
+				"character": 166926
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/export",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 167461
+			},
+			"end": {
+				"line": 0,
+				"character": 167478
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/exporters",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 168375
+			},
+			"end": {
+				"line": 0,
+				"character": 168392
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/importers",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 168661
+			},
+			"end": {
+				"line": 0,
+				"character": 168678
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/inheritance",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 168976
+			},
+			"end": {
+				"line": 0,
+				"character": 168993
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/projects",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 169656
+			},
+			"end": {
+				"line": 0,
+				"character": 169673
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/remove_project",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 171049
+			},
+			"end": {
+				"line": 0,
+				"character": 171066
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/rename",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 171874
+			},
+			"end": {
+				"line": 0,
+				"character": 171891
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/restore",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 172655
+			},
+			"end": {
+				"line": 0,
+				"character": 172672
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 173153
+			},
+			"end": {
+				"line": 0,
+				"character": 173170
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/qualityprofiles/set_default",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 174196
+			},
+			"end": {
+				"line": 0,
+				"character": 174213
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/rules/create",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 174772
+			},
+			"end": {
+				"line": 0,
+				"character": 174779
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/rules/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 176511
+			},
+			"end": {
+				"line": 0,
+				"character": 176518
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/rules/repositories",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 176887
+			},
+			"end": {
+				"line": 0,
+				"character": 176894
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/rules/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 177525
+			},
+			"end": {
+				"line": 0,
+				"character": 177532
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/rules/show",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 182591
+			},
+			"end": {
+				"line": 0,
+				"character": 182598
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/rules/tags",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 183096
+			},
+			"end": {
+				"line": 0,
+				"character": 183103
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/rules/update",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 183716
+			},
+			"end": {
+				"line": 0,
+				"character": 183723
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/server/version",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 186081
+			},
+			"end": {
+				"line": 0,
+				"character": 186089
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/settings/list_definitions",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 186679
+			},
+			"end": {
+				"line": 0,
+				"character": 186689
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/settings/reset",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 187275
+			},
+			"end": {
+				"line": 0,
+				"character": 187285
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/settings/set",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 188131
+			},
+			"end": {
+				"line": 0,
+				"character": 188141
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/settings/values",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 189592
+			},
+			"end": {
+				"line": 0,
+				"character": 189602
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/sources/raw",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 190132
+			},
+			"end": {
+				"line": 0,
+				"character": 190141
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/sources/scm",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 190768
+			},
+			"end": {
+				"line": 0,
+				"character": 190777
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/sources/show",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 191813
+			},
+			"end": {
+				"line": 0,
+				"character": 191822
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/system/change_log_level",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 192596
+			},
+			"end": {
+				"line": 0,
+				"character": 192604
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/system/db_migration_status",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 193628
+			},
+			"end": {
+				"line": 0,
+				"character": 193636
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/system/health",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 194480
+			},
+			"end": {
+				"line": 0,
+				"character": 194488
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/system/info",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 194781
+			},
+			"end": {
+				"line": 0,
+				"character": 194789
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/system/logs",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 195071
+			},
+			"end": {
+				"line": 0,
+				"character": 195079
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/system/migrate_db",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 196186
+			},
+			"end": {
+				"line": 0,
+				"character": 196194
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/system/ping",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 196426
+			},
+			"end": {
+				"line": 0,
+				"character": 196434
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/system/restart",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 196818
+			},
+			"end": {
+				"line": 0,
+				"character": 196826
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/system/status",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 197830
+			},
+			"end": {
+				"line": 0,
+				"character": 197838
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/system/upgrades",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 198329
+			},
+			"end": {
+				"line": 0,
+				"character": 198337
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/user_groups/add_user",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 198680
+			},
+			"end": {
+				"line": 0,
+				"character": 198693
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/user_groups/create",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 199228
+			},
+			"end": {
+				"line": 0,
+				"character": 199241
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/user_groups/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 200083
+			},
+			"end": {
+				"line": 0,
+				"character": 200096
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/user_groups/remove_user",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 200568
+			},
+			"end": {
+				"line": 0,
+				"character": 200581
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/user_groups/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 201123
+			},
+			"end": {
+				"line": 0,
+				"character": 201136
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/user_groups/update",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 202315
+			},
+			"end": {
+				"line": 0,
+				"character": 202328
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/user_groups/users",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 203431
+			},
+			"end": {
+				"line": 0,
+				"character": 203444
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/user_tokens/generate",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 204782
+			},
+			"end": {
+				"line": 0,
+				"character": 204795
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/user_tokens/revoke",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 206182
+			},
+			"end": {
+				"line": 0,
+				"character": 206195
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/user_tokens/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 207091
+			},
+			"end": {
+				"line": 0,
+				"character": 207104
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/users/anonymize",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 207505
+			},
+			"end": {
+				"line": 0,
+				"character": 207512
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/users/change_password",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 208093
+			},
+			"end": {
+				"line": 0,
+				"character": 208100
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/users/create",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 208873
+			},
+			"end": {
+				"line": 0,
+				"character": 208880
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/users/deactivate",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 210190
+			},
+			"end": {
+				"line": 0,
+				"character": 210197
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/users/groups",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 210758
+			},
+			"end": {
+				"line": 0,
+				"character": 210765
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/users/search",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 212339
+			},
+			"end": {
+				"line": 0,
+				"character": 212346
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/users/update",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 214988
+			},
+			"end": {
+				"line": 0,
+				"character": 214995
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/users/update_identity_provider",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 216166
+			},
+			"end": {
+				"line": 0,
+				"character": 216173
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/users/update_login",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 217188
+			},
+			"end": {
+				"line": 0,
+				"character": 217195
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/add_application",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 217819
+			},
+			"end": {
+				"line": 0,
+				"character": 217826
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/add_application_branch",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 218554
+			},
+			"end": {
+				"line": 0,
+				"character": 218561
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/add_portfolio",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 219296
+			},
+			"end": {
+				"line": 0,
+				"character": 219303
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/add_project",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 219963
+			},
+			"end": {
+				"line": 0,
+				"character": 219970
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/add_project_branch",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 220615
+			},
+			"end": {
+				"line": 0,
+				"character": 220622
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/applications",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 221361
+			},
+			"end": {
+				"line": 0,
+				"character": 221368
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/create",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 221824
+			},
+			"end": {
+				"line": 0,
+				"character": 221831
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 223104
+			},
+			"end": {
+				"line": 0,
+				"character": 223111
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/list",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 223535
+			},
+			"end": {
+				"line": 0,
+				"character": 223542
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/move",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 223814
+			},
+			"end": {
+				"line": 0,
+				"character": 223821
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/move_options",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 224417
+			},
+			"end": {
+				"line": 0,
+				"character": 224424
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/portfolios",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 224869
+			},
+			"end": {
+				"line": 0,
+				"character": 224876
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/remove_application",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 225364
+			},
+			"end": {
+				"line": 0,
+				"character": 225371
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/remove_application_branch",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 226070
+			},
+			"end": {
+				"line": 0,
+				"character": 226077
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/remove_portfolio",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 226792
+			},
+			"end": {
+				"line": 0,
+				"character": 226799
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/remove_project",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 227404
+			},
+			"end": {
+				"line": 0,
+				"character": 227411
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/remove_project_branch",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 228068
+			},
+			"end": {
+				"line": 0,
+				"character": 228075
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/set_manual_mode",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 228877
+			},
+			"end": {
+				"line": 0,
+				"character": 228884
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/set_none_mode",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 229458
+			},
+			"end": {
+				"line": 0,
+				"character": 229465
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/set_regexp_mode",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 229984
+			},
+			"end": {
+				"line": 0,
+				"character": 229991
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/set_remaining_projects_mode",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 230935
+			},
+			"end": {
+				"line": 0,
+				"character": 230942
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/set_tags_mode",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 231638
+			},
+			"end": {
+				"line": 0,
+				"character": 231645
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/show",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 232502
+			},
+			"end": {
+				"line": 0,
+				"character": 232509
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/views/update",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 232922
+			},
+			"end": {
+				"line": 0,
+				"character": 232929
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/webhooks/create",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 233677
+			},
+			"end": {
+				"line": 0,
+				"character": 233687
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/webhooks/delete",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 234931
+			},
+			"end": {
+				"line": 0,
+				"character": 234941
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/webhooks/deliveries",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 235609
+			},
+			"end": {
+				"line": 0,
+				"character": 235619
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/webhooks/delivery",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 236805
+			},
+			"end": {
+				"line": 0,
+				"character": 236815
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/webhooks/list",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 237324
+			},
+			"end": {
+				"line": 0,
+				"character": 237334
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/webhooks/update",
+			"post",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 237785
+			},
+			"end": {
+				"line": 0,
+				"character": 237795
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/webservices/list",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 238783
+			},
+			"end": {
+				"line": 0,
+				"character": 238796
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	},
+	{
+		"code": "operation-tag-defined",
+		"path": [
+			"paths",
+			"/api/webservices/response_example",
+			"get",
+			"tags",
+			"0"
+		],
+		"message": "Operation tags must be defined in global tags.",
+		"severity": 1,
+		"range": {
+			"start": {
+				"line": 0,
+				"character": 239313
+			},
+			"end": {
+				"line": 0,
+				"character": 239326
+			}
+		},
+		"source": "/home/austin.smith/repos/sonar/oas-generator/webapi.oas.json"
+	}
+]

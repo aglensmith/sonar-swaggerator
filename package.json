@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node index.js"
+    "start": "node index.js",
+    "coverage": "jest --coverage",
+    "scan": "sonar-scanner -Dsonar.login=$SONARQUBE_99_TOKEN -Dsonar.javascript.lcov.reportPaths=./coverage/lcov.info"
   },
   "author": "",
   "license": "ISC",

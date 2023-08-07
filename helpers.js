@@ -1,11 +1,6 @@
 const fs = require('fs');
 const https = require('https');
 
-function sonarCloudTest () {
-    var notUsedVar = "";
-    var notUsedVar2 = "";
-}
-
 function getHttps(url, callback) {
     https.get(url, res => {
         let data = [];
@@ -33,7 +28,7 @@ function createSwaggerTemplate () {
         },
         "servers": [
             {
-                url: "http:localhost.com:9000/api"
+                url: "http://localhost:9000"
             }
         ],
         "security": [
@@ -47,6 +42,9 @@ function createSwaggerTemplate () {
                     "scheme": "bearer",
 
                 }
+            },
+            "schemas": {
+
             }
         }
     }
@@ -56,7 +54,7 @@ function createSwaggerTemplate () {
 
 
 function getWebServiceJson (location) {
-    return fs.readFileSync(location);
+    return JSON.parse(fs.readFileSync(location));
 }
 
 function parseWebServiceJson (json) {
@@ -87,10 +85,23 @@ function convertToSwagger (template, services) {
     
             // set path
             template.paths[full_path] = {}
+
+            // set schema
+            template.components.schemas[operationId] = {
+                type: 'object',
+                required: [],
+                properties: {}
+            };
     
             // set parameters
             if (action.params) {
+
                 action.params.forEach(param => {
+                    if (action.post) {
+                        template.components.schemas[operationId].properties[param.key] = {
+                            type: "string"
+                        }
+                    }
                     parameters.push({
                         name: param.key,
                         in: "query",
@@ -116,6 +127,9 @@ function convertToSwagger (template, services) {
     
             // set operation
             if (action.post) {
+                operation['requestBody'] = {
+                    $ref: 'schemas.json#/' + operationId
+                }
                 template.paths[full_path]["post"] = operation
             } else {
                 template.paths[full_path]["get"] = operation
