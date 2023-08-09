@@ -9,6 +9,11 @@ steps:
     cliProjectKey: 'sonar-swaggerator'
     cliProjectName: 'sonar-swaggerator'
     cliSources: '.'
+    extraProperties: |
+      # Additional properties that will be passed to the scanner, 
+      # Put one key=value per line, example:
+      # sonar.exclusions=**/*.bin
+      sonar.verbose=true
 - task: SonarQubeAnalyze@5
   inputs:
     jdkversion: 'JAVA_HOME_17_X64'
