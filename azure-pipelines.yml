@@ -11,6 +11,10 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+- task: SonarQubeAnalyze@5
+  inputs:
+    jdkversion: 'JAVA_HOME_17_X64'
+
 trigger:
 - main
 
