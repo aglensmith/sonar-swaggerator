@@ -1,4 +1,6 @@
-# Starter pipeline
+trigger:
+- main
+steps:
 - task: SonarQubePrepare@5
   inputs:
     SonarQube: 'local-sq'
@@ -7,25 +9,6 @@
     cliProjectKey: 'sonar-swaggerator'
     cliProjectName: 'sonar-swaggerator'
     cliSources: '.'
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 - task: SonarQubeAnalyze@5
   inputs:
     jdkversion: 'JAVA_HOME_17_X64'
-
-trigger:
-- main
-
-pool:
-  vmImage: ubuntu-latest
-
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
