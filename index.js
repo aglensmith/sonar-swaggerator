@@ -2,6 +2,8 @@ const helpers = require("./helpers");
 
 var stuff;
 
+var things;
+
 helpers.getHttps('https://next.sonarqube.com/sonarqube/api/webservices/list', function(json){
     const services = helpers.parseWebServiceJson(json);
 
