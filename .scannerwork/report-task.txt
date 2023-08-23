@@ -1,7 +1,6 @@
-projectKey=aglensmith_swaggerator2
+projectKey=aglensmith_swaggerator3
 serverUrl=https://austins.ngrok.dev
 serverVersion=9.9.1.69595
-branch=dev
-dashboardUrl=https://austins.ngrok.dev/dashboard?id=aglensmith_swaggerator2&branch=dev
-ceTaskId=AYoZ7qbNaOcm0nZc9dz6
-ceTaskUrl=https://austins.ngrok.dev/api/ce/task?id=AYoZ7qbNaOcm0nZc9dz6
+dashboardUrl=https://austins.ngrok.dev/dashboard?id=aglensmith_swaggerator3&pullRequest=123
+ceTaskId=AYojBjHpAofYdqpefWKe
+ceTaskUrl=https://austins.ngrok.dev/api/ce/task?id=AYojBjHpAofYdqpefWKe
