@@ -1,5 +1,6 @@
 const helpers = require("./helpers");
 
+
 helpers.getHttps('https://next.sonarqube.com/sonarqube/api/webservices/list', function(json){
     const services = helpers.parseWebServiceJson(json);
 
@@ -9,5 +10,3 @@ helpers.getHttps('https://next.sonarqube.com/sonarqube/api/webservices/list', fu
     
     console.log(JSON.stringify(swagger));
 });
-
-

@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node index.js"
+    "gen": "node src/index.js",
+    "start": "http-server",
+    "coverage": "jest --coverage",
+    "scan": "sonar-scanner -Dsonar.login=$SQ_99_TOKEN -Dsonar.tests=./test -Dsonar.sources=./src -Dsonar.javascript.lcov.reportPaths=./coverage/lcov.info"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +16,7 @@
     "swagger-client": "^3.19.8"
   },
   "devDependencies": {
+    "http-server": "^14.1.1",
     "jest": "^29.5.0"
   }
 }
