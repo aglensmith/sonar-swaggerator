@@ -10,7 +10,12 @@
         }
     ],
     "security": [
-        "bearerAuth"
+        {
+            "BearerAuth": []
+        },
+        {
+            "BasicAuth": []
+        }
     ],
     "paths": {
         "/api/alm_integrations/import_gitlab_project": {
@@ -13808,6 +13813,10 @@
             "BearerAuth": {
                 "type": "http",
                 "scheme": "bearer"
+            },
+            "BasicAuth": {
+                "type": "http",
+                "scheme": "basic"
             }
         },
         "schemas": {

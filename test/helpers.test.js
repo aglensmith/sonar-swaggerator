@@ -1,4 +1,4 @@
-const helpers = require('./helpers');
+const helpers = require('../src/helpers');
 
 test('reads webservices to json', () => {
     const json = helpers.getWebServiceJson('./webservices.json');

@@ -1,6 +1,0 @@
-projectKey=aglensmith_swaggerator3
-serverUrl=https://austins.ngrok.dev
-serverVersion=9.9.1.69595
-dashboardUrl=https://austins.ngrok.dev/dashboard?id=aglensmith_swaggerator3&pullRequest=123
-ceTaskId=AYojBjHpAofYdqpefWKe
-ceTaskUrl=https://austins.ngrok.dev/api/ce/task?id=AYojBjHpAofYdqpefWKe

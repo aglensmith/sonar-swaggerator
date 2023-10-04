@@ -32,12 +32,15 @@ function createSwaggerTemplate () {
             }
         ],
         "security": [
-            "bearerAuth"
+            {
+                "BasicAuth": [],
+                "BearerAuth": []
+            }
         ],
         "paths": {},
         "components": {
             "securitySchemes": {
-                "BearerAuth": {
+                "bearerAuth": {
                     "type": "http",
                     "scheme": "bearer",
 
@@ -128,7 +131,7 @@ function convertToSwagger (template, services) {
             // set operation
             if (action.post) {
                 operation['requestBody'] = {
-                    $ref: 'schemas.json#/' + operationId
+                    $ref: 'models/schemas.json#/' + operationId
                 }
                 template.paths[full_path]["post"] = operation
             } else {
