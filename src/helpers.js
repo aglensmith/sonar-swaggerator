@@ -130,9 +130,9 @@ function convertToSwagger (template, services) {
     
             // set operation
             if (action.post) {
-                operation['requestBody'] = {
-                    $ref: 'models/schemas.json#/' + operationId
-                }
+                // operation['requestBody'] = {
+                //    $ref: 'models/schemas.json#/' + operationId
+                // }
                 template.paths[full_path]["post"] = operation
             } else {
                 template.paths[full_path]["get"] = operation
