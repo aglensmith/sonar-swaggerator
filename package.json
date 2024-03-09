@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "gen": "node src/index.js >> reference/webapi.oas.json",
-    "start": "http-server",
+    "gen": "rm -rf reference/webapi.oas.json && node src/index.js >> reference/webapi.oas.json",
+    "start": "http-server --cors",
     "coverage": "jest --coverage",
     "scan": "sonar-scanner -Dsonar.login=$SQ_99_TOKEN -Dsonar.tests=./test -Dsonar.sources=./src -Dsonar.javascript.lcov.reportPaths=./coverage/lcov.info"
   },

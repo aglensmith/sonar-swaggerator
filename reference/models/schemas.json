@@ -6,16 +6,6 @@
       "application/x-www-form-urlencoded": {
         "schema": {
           "$ref": "webapi.oas.json#/components/schemas/settings-set"
-        },
-        "encoding": {
-          "key": {
-            "style": "form",
-            "explode": false
-          },
-          "value": {
-            "style": "form",
-            "explode": false
-          }
         }
       }
     }

@@ -1,19 +1,11 @@
 const fs = require('fs');
 const https = require('https');
 
-const express = require('express');
-
-const app = express();
-
-app.get('/lookup', (req, res) => {
-  const regex = RegExp(req.query.regex); // Noncompliant
-
-  if(regex.test(req.query.data)){
-    res.send("It's a Match!");
-  }else{
-    res.send("Not a Match!");
-  }
-})
+function notQuery(operationId) {
+    return [
+        'settings-set'
+    ].includes(operationId);
+}
 
 function getHttps(url, callback) {
     https.get(url, res => {
@@ -47,8 +39,7 @@ function createSwaggerTemplate () {
         ],
         "security": [
             {
-                "BasicAuth": [],
-                "BearerAuth": []
+                "basicAuth": [],
             }
         ],
         "paths": {},
@@ -56,8 +47,11 @@ function createSwaggerTemplate () {
             "securitySchemes": {
                 "bearerAuth": {
                     "type": "http",
-                    "scheme": "bearer",
-
+                    "scheme": "bearer"
+                },
+                "basicAuth":{
+                    "type":"http",
+                    "scheme": "basic"
                 }
             },
             "schemas": {
@@ -115,20 +109,28 @@ function convertToSwagger (template, services) {
 
                 action.params.forEach(param => {
                     if (action.post) {
+                        if (param.required) {
+                            template.components.schemas[operationId].required.push(param.key)
+                        }
                         template.components.schemas[operationId].properties[param.key] = {
-                            type: "string"
+                            type: "string",
+                            description: param.description,
+                            'x-example': param.exampleValue
                         }
                     }
-                    parameters.push({
-                        name: param.key,
-                        in: "query",
-                        required: param.required,
-                        "x-internal": param.internal,
-                        description: param.description,
-                        schema: {
-                            type: "string"
-                        }
-                    })
+                    if (!action.post) {
+                        parameters.push({
+                            name: param.key,
+                            in: "query",
+                            required: param.required,
+                            "x-internal": param.internal,
+                            description: param.description,
+                            schema: {
+                                type: "string"
+                            }
+                        })
+                    }
+
                     
                 })
             }
@@ -144,9 +146,24 @@ function convertToSwagger (template, services) {
     
             // set operation
             if (action.post) {
-                // operation['requestBody'] = {
-                //    $ref: 'models/schemas.json#/' + operationId
-                // }
+                operation['requestBody'] = {
+                    required: true,
+                    content: {
+                        "application/x-www-form-urlencoded": {
+                            schema: {
+                                $ref: "#/components/schemas/" + operationId
+                            }
+                        }
+                    }
+                    // $ref: 'models/schemas.json#/' + operationId
+                }
+
+                operation['responses'] = {
+                    '204': {
+                        description: "No Content"
+                    }
+                }
+
                 template.paths[full_path]["post"] = operation
             } else {
                 template.paths[full_path]["get"] = operation
