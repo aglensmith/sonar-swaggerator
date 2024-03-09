@@ -1,6 +1,12 @@
 const fs = require('fs');
 const https = require('https');
 
+function notQuery(operationId) {
+    return [
+        'settings-set'
+    ].includes(operationId);
+}
+
 function getHttps(url, callback) {
     https.get(url, res => {
         let data = [];
@@ -28,20 +34,28 @@ function createSwaggerTemplate () {
         },
         "servers": [
             {
-                url: "http:localhost.com:9000/api"
+                url: "http://localhost:9000"
             }
         ],
         "security": [
-            "bearerAuth"
+            {
+                "basicAuth": [],
+            }
         ],
         "paths": {},
         "components": {
             "securitySchemes": {
-                "BearerAuth": {
+                "bearerAuth": {
                     "type": "http",
-                    "scheme": "bearer",
-
+                    "scheme": "bearer"
+                },
+                "basicAuth":{
+                    "type":"http",
+                    "scheme": "basic"
                 }
+            },
+            "schemas": {
+
             }
         }
     }
@@ -51,7 +65,7 @@ function createSwaggerTemplate () {
 
 
 function getWebServiceJson (location) {
-    return fs.readFileSync(location);
+    return JSON.parse(fs.readFileSync(location));
 }
 
 function parseWebServiceJson (json) {
@@ -82,20 +96,41 @@ function convertToSwagger (template, services) {
     
             // set path
             template.paths[full_path] = {}
+
+            // set schema
+            template.components.schemas[operationId] = {
+                type: 'object',
+                required: [],
+                properties: {}
+            };
     
             // set parameters
             if (action.params) {
+
                 action.params.forEach(param => {
-                    parameters.push({
-                        name: param.key,
-                        in: "query",
-                        required: param.required,
-                        "x-internal": param.internal,
-                        description: param.description,
-                        schema: {
-                            type: "string"
+                    if (action.post) {
+                        if (param.required) {
+                            template.components.schemas[operationId].required.push(param.key)
                         }
-                    })
+                        template.components.schemas[operationId].properties[param.key] = {
+                            type: "string",
+                            description: param.description,
+                            'x-example': param.exampleValue
+                        }
+                    }
+                    if (!action.post) {
+                        parameters.push({
+                            name: param.key,
+                            in: "query",
+                            required: param.required,
+                            "x-internal": param.internal,
+                            description: param.description,
+                            schema: {
+                                type: "string"
+                            }
+                        })
+                    }
+
                     
                 })
             }
@@ -111,6 +146,24 @@ function convertToSwagger (template, services) {
     
             // set operation
             if (action.post) {
+                operation['requestBody'] = {
+                    required: true,
+                    content: {
+                        "application/x-www-form-urlencoded": {
+                            schema: {
+                                $ref: "#/components/schemas/" + operationId
+                            }
+                        }
+                    }
+                    // $ref: 'models/schemas.json#/' + operationId
+                }
+
+                operation['responses'] = {
+                    '204': {
+                        description: "No Content"
+                    }
+                }
+
                 template.paths[full_path]["post"] = operation
             } else {
                 template.paths[full_path]["get"] = operation
